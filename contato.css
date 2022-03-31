@@ -13,7 +13,7 @@ main > section h2 {
 
 
 form {
-    background: url('ilustra-contato.png') 1155px 0 no-repeat;
+    background: url('./img/ilustra-contato.png') 1155px 0 no-repeat;
     display: flex;
     
 }

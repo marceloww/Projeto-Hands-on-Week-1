@@ -7,13 +7,12 @@ header {
     background: #2E948A;
     display: flex;
     justify-content: center;
-
 }
 
 header h2 a {
     display: block;
     color: transparent;
-    background: url('logo-header.png') 0 0 no-repeat;
+    background: url('./img/logo-header.png') 0 0 no-repeat;
     width: 244px;
     height: 77px;
 }
@@ -50,7 +49,7 @@ footer {
 footer h2 a {
     display: block;
     color: transparent;
-    background: url('logo-footer.png') 0 0 no-repeat;
+    background: url('./img/logo-footer.png') 0 0 no-repeat;
     width: 312px;
     height: 102px;
 }
