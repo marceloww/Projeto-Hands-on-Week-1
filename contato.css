@@ -1,0 +1,65 @@
+
+
+main > section h2 {
+    margin: 0 270px 77px;
+    padding-top: 100px;
+    width: 419px;
+    font-size: 70px;
+    font-weight: 700;
+    color: #FF4081;
+    
+}
+
+
+
+form {
+    background: url('ilustra-contato.png') 1155px 0 no-repeat;
+    display: flex;
+    
+}
+
+fieldset {
+    padding: 0px 15px 154px 35px;
+    margin: 0 15px 0px 230px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+legend {
+    font-family: Ubuntu;
+    display: block;
+    float: left;
+    clear: both;
+    font-size: 40px;
+    color: #FFC107;
+    font-weight: 700;
+    margin: 0 0 64px;
+}
+
+input[type=text], input[type=email], textarea {
+    box-sizing: border-box;
+    margin: 0 0 23px;
+    padding: 10px 35px 10px 35px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+input[type=submit] {
+    background: #FF4081;
+    border-radius: 50px;
+    color: white;
+    padding: 14px 50px;
+    border: none;
+    text-transform: lowercase;
+}
+
+@media only screen and (max-width: 769px) {
+    form {
+        background-image: none;
+    }
+
+    fieldset {
+        margin: 0 15px 50px;
+    }
+}
