@@ -10,7 +10,10 @@ main > section h2 {
     
 }
 
-
+img {
+    width: 444px;
+    height: 444px;
+}
 
 form {
     background: url('./img/ilustra-contato.png') 1155px 0 no-repeat;
@@ -54,12 +57,37 @@ input[type=submit] {
     text-transform: lowercase;
 }
 
-@media only screen and (max-width: 769px) {
-    form {
-        background-image: none;
+@media screen and (max-width: 1250px) {
+    body {
+        width: 800px;
+        justify-content: center;
+        align-items: center;        
     }
-
-    fieldset {
-        margin: 0 15px 50px;
+    form {
+        margin-right: 40px;
+    }
+    img {
+        width: 30vw;
+        height: 30vw;
+    }
+}
+@media screen and (max-width: 980px) {
+    main {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    form {
+        margin-right: 0px;
+    }
+    img {
+        display: none;
+    }
+}
+@media screen and (max-width: 425px) {
+    form {
+        text-align: center;
+    }
+    form #botao {
+        width: auto;
     }
 }
